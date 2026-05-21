@@ -1,0 +1,82 @@
+2026-04-20 18:12:33,630 | INFO | 🚀 TAGCN Reconstruction Pretraining
+2026-04-20 18:12:33,630 | INFO | Device: cuda
+2026-04-20 18:12:33,630 | INFO | Train jsonl: module1/data_preprocessing/output/finetune/train.jsonl
+2026-04-20 18:12:33,630 | INFO | Val jsonl: module1/data_preprocessing/output/finetune/val.jsonl
+2026-04-20 18:12:33,631 | INFO | Detected node feature dim = 23
+2026-04-20 18:12:37,711 | INFO | Train samples: 78222
+2026-04-20 18:12:37,711 | INFO | Val samples: 6520
+2026-04-20 18:12:45,748 | INFO | [Epoch 001] Train Loss: 1.107244 | Val Loss: 0.785917
+2026-04-20 18:12:45,755 | INFO | ✅ Saved best model (val_loss=0.785917)
+2026-04-20 18:12:53,394 | INFO | [Epoch 002] Train Loss: 0.940091 | Val Loss: 0.740857
+2026-04-20 18:12:53,396 | INFO | ✅ Saved best model (val_loss=0.740857)
+2026-04-20 18:13:01,114 | INFO | [Epoch 003] Train Loss: 0.911083 | Val Loss: 0.734472
+2026-04-20 18:13:01,118 | INFO | ✅ Saved best model (val_loss=0.734472)
+2026-04-20 18:13:08,835 | INFO | [Epoch 004] Train Loss: 0.865323 | Val Loss: 0.683661
+2026-04-20 18:13:08,840 | INFO | ✅ Saved best model (val_loss=0.683661)
+2026-04-20 18:13:16,616 | INFO | [Epoch 005] Train Loss: 0.771627 | Val Loss: 0.625913
+2026-04-20 18:13:16,619 | INFO | ✅ Saved best model (val_loss=0.625913)
+2026-04-20 18:13:24,378 | INFO | [Epoch 006] Train Loss: 0.697501 | Val Loss: 0.576718
+2026-04-20 18:13:24,380 | INFO | ✅ Saved best model (val_loss=0.576718)
+2026-04-20 18:13:32,139 | INFO | [Epoch 007] Train Loss: 0.685644 | Val Loss: 0.572421
+2026-04-20 18:13:32,143 | INFO | ✅ Saved best model (val_loss=0.572421)
+2026-04-20 18:13:39,857 | INFO | [Epoch 008] Train Loss: 0.682495 | Val Loss: 0.561354
+2026-04-20 18:13:39,864 | INFO | ✅ Saved best model (val_loss=0.561354)
+2026-04-20 18:13:47,573 | INFO | [Epoch 009] Train Loss: 0.636534 | Val Loss: 0.506437
+2026-04-20 18:13:47,576 | INFO | ✅ Saved best model (val_loss=0.506437)
+2026-04-20 18:13:55,358 | INFO | [Epoch 010] Train Loss: 0.559285 | Val Loss: 0.474684
+2026-04-20 18:13:55,364 | INFO | ✅ Saved best model (val_loss=0.474684)
+2026-04-20 18:14:03,162 | INFO | [Epoch 011] Train Loss: 0.545085 | Val Loss: 0.453675
+2026-04-20 18:14:03,165 | INFO | ✅ Saved best model (val_loss=0.453675)
+2026-04-20 18:14:10,945 | INFO | [Epoch 012] Train Loss: 0.533260 | Val Loss: 0.452721
+2026-04-20 18:14:10,952 | INFO | ✅ Saved best model (val_loss=0.452721)
+2026-04-20 18:14:18,707 | INFO | [Epoch 013] Train Loss: 0.513247 | Val Loss: 0.443038
+2026-04-20 18:14:18,710 | INFO | ✅ Saved best model (val_loss=0.443038)
+2026-04-20 18:14:26,487 | INFO | [Epoch 014] Train Loss: 0.507211 | Val Loss: 0.428251
+2026-04-20 18:14:26,491 | INFO | ✅ Saved best model (val_loss=0.428251)
+2026-04-20 18:14:34,241 | INFO | [Epoch 015] Train Loss: 0.462619 | Val Loss: 0.414501
+2026-04-20 18:14:34,243 | INFO | ✅ Saved best model (val_loss=0.414501)
+2026-04-20 18:14:42,007 | INFO | [Epoch 016] Train Loss: 0.459958 | Val Loss: 0.413085
+2026-04-20 18:14:42,010 | INFO | ✅ Saved best model (val_loss=0.413085)
+2026-04-20 18:14:49,819 | INFO | [Epoch 017] Train Loss: 0.458658 | Val Loss: 0.412754
+2026-04-20 18:14:49,822 | INFO | ✅ Saved best model (val_loss=0.412754)
+2026-04-20 18:14:57,581 | INFO | [Epoch 018] Train Loss: 0.444840 | Val Loss: 0.398369
+2026-04-20 18:14:57,586 | INFO | ✅ Saved best model (val_loss=0.398369)
+2026-04-20 18:15:05,376 | INFO | [Epoch 019] Train Loss: 0.418613 | Val Loss: 0.382224
+2026-04-20 18:15:05,378 | INFO | ✅ Saved best model (val_loss=0.382224)
+2026-04-20 18:15:13,124 | INFO | [Epoch 020] Train Loss: 0.419176 | Val Loss: 0.374624
+2026-04-20 18:15:13,127 | INFO | ✅ Saved best model (val_loss=0.374624)
+2026-04-20 18:15:20,888 | INFO | [Epoch 021] Train Loss: 0.407787 | Val Loss: 0.372522
+2026-04-20 18:15:20,893 | INFO | ✅ Saved best model (val_loss=0.372522)
+2026-04-20 18:15:28,681 | INFO | [Epoch 022] Train Loss: 0.391235 | Val Loss: 0.369105
+2026-04-20 18:15:28,683 | INFO | ✅ Saved best model (val_loss=0.369105)
+2026-04-20 18:15:36,419 | INFO | [Epoch 023] Train Loss: 0.377150 | Val Loss: 0.363404
+2026-04-20 18:15:36,423 | INFO | ✅ Saved best model (val_loss=0.363404)
+2026-04-20 18:15:44,181 | INFO | [Epoch 024] Train Loss: 0.367109 | Val Loss: 0.371028
+2026-04-20 18:15:51,868 | INFO | [Epoch 025] Train Loss: 0.343253 | Val Loss: 0.367798
+2026-04-20 18:15:59,637 | INFO | [Epoch 026] Train Loss: 0.327857 | Val Loss: 0.362382
+2026-04-20 18:15:59,646 | INFO | ✅ Saved best model (val_loss=0.362382)
+2026-04-20 18:16:07,438 | INFO | [Epoch 027] Train Loss: 0.316672 | Val Loss: 0.353421
+2026-04-20 18:16:07,441 | INFO | ✅ Saved best model (val_loss=0.353421)
+2026-04-20 18:16:15,221 | INFO | [Epoch 028] Train Loss: 0.329636 | Val Loss: 0.348542
+2026-04-20 18:16:15,226 | INFO | ✅ Saved best model (val_loss=0.348542)
+2026-04-20 18:16:23,011 | INFO | [Epoch 029] Train Loss: 0.298416 | Val Loss: 0.348435
+2026-04-20 18:16:23,013 | INFO | ✅ Saved best model (val_loss=0.348435)
+2026-04-20 18:16:30,758 | INFO | [Epoch 030] Train Loss: 0.303965 | Val Loss: 0.347516
+2026-04-20 18:16:30,765 | INFO | ✅ Saved best model (val_loss=0.347516)
+2026-04-20 18:16:38,458 | INFO | [Epoch 031] Train Loss: 0.293521 | Val Loss: 0.353490
+2026-04-20 18:16:46,238 | INFO | [Epoch 032] Train Loss: 0.295396 | Val Loss: 0.361322
+2026-04-20 18:16:54,007 | INFO | [Epoch 033] Train Loss: 0.279810 | Val Loss: 0.342466
+2026-04-20 18:16:54,010 | INFO | ✅ Saved best model (val_loss=0.342466)
+2026-04-20 18:17:01,731 | INFO | [Epoch 034] Train Loss: 0.251052 | Val Loss: 0.341698
+2026-04-20 18:17:01,734 | INFO | ✅ Saved best model (val_loss=0.341698)
+2026-04-20 18:17:09,532 | INFO | [Epoch 035] Train Loss: 0.248700 | Val Loss: 0.341985
+2026-04-20 18:17:17,234 | INFO | [Epoch 036] Train Loss: 0.245966 | Val Loss: 0.326362
+2026-04-20 18:17:17,239 | INFO | ✅ Saved best model (val_loss=0.326362)
+2026-04-20 18:17:25,053 | INFO | [Epoch 037] Train Loss: 0.248709 | Val Loss: 0.318964
+2026-04-20 18:17:25,058 | INFO | ✅ Saved best model (val_loss=0.318964)
+2026-04-20 18:17:32,797 | INFO | [Epoch 038] Train Loss: 0.239741 | Val Loss: 0.323170
+2026-04-20 18:17:40,582 | INFO | [Epoch 039] Train Loss: 0.233071 | Val Loss: 0.326639
+2026-04-20 18:17:48,383 | INFO | [Epoch 040] Train Loss: 0.255691 | Val Loss: 0.351975
+2026-04-20 18:17:48,383 | INFO | 🏁 Training finished
+2026-04-20 18:17:48,384 | INFO | ⏱ Total time: 0.09 hours
+2026-04-20 18:17:48,384 | INFO | 📄 Log saved at: module2/TAGCN/checkpoints_pretrain/TAPT/train_20260420_181233.log

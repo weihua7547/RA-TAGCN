@@ -1,0 +1,10 @@
+2026-04-18 13:42:27,859 | INFO | 🚀 TAGCN Reconstruction Pretraining (with Checkpoint Resume)
+2026-04-18 13:42:28,210 | INFO | Detected node feature dim = 23
+2026-04-18 14:03:16,207 | INFO | [Epoch 001] Train Loss: 0.349696 | Val Loss: 1.518557
+2026-04-18 14:03:16,244 | INFO | ✅ Saved best model (val_loss=1.518557)
+2026-04-18 14:24:03,706 | INFO | [Epoch 002] Train Loss: 0.151277 | Val Loss: 0.108952
+2026-04-18 14:24:03,727 | INFO | ✅ Saved best model (val_loss=0.108952)
+2026-04-18 14:44:40,595 | INFO | [Epoch 003] Train Loss: 0.226586 | Val Loss: 1.405054
+2026-04-18 15:04:31,451 | INFO | [Epoch 004] Train Loss: 0.221986 | Val Loss: 0.751924
+2026-04-18 15:24:41,117 | INFO | [Epoch 005] Train Loss: 0.214242 | Val Loss: 0.872979
+2026-04-18 15:24:41,133 | INFO | 🏁 Training finished. Total time: 1.70 hours

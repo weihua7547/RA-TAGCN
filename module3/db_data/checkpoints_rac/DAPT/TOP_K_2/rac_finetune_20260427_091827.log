@@ -1,0 +1,223 @@
+2026-04-27 09:18:27,848 | INFO | Device: cuda
+2026-04-27 09:18:27,854 | INFO | Using TOP_K (max_neighbors): 2
+2026-04-27 09:18:27,856 | INFO | Loading dataset into RAM: module3/db_data/rac_train_pairs.jsonl
+2026-04-27 09:18:27,860 | INFO | Total file size: 57.62 GB
+2026-04-27 09:48:13,993 | INFO | Successfully cached 78222 samples.
+2026-04-27 09:48:13,995 | INFO | Loading dataset into RAM: module3/db_data/rac_val_pairs.jsonl
+2026-04-27 09:48:13,995 | INFO | Total file size: 7.14 GB
+2026-04-27 09:51:02,039 | INFO | Successfully cached 6520 samples.
+2026-04-27 09:51:02,039 | INFO | Loading dataset into RAM: module3/db_data/rac_test_pairs.jsonl
+2026-04-27 09:51:02,039 | INFO | Total file size: 6.65 GB
+2026-04-27 09:54:14,426 | INFO | Successfully cached 7042 samples.
+2026-04-27 09:54:14,440 | INFO | Loading pretrained encoder: module2/TAGCN/checkpoints_pretrain/DAPT/reconstruct_best.pt
+2026-04-27 09:54:30,550 | INFO | --- Epoch 1 Report ---
+2026-04-27 09:54:30,550 | INFO | Train Loss: 1.0144
+2026-04-27 09:54:30,550 | INFO | Val  -> Loss: 0.8825 | Acc: 0.7186 | Pre: 0.5260 | Rec: 0.3881 | F1: 0.3857
+2026-04-27 09:54:30,550 | INFO | Test -> Loss: 0.8088 | Acc: 0.7655 | Pre: 0.4646 | Rec: 0.3463 | F1: 0.3593
+2026-04-27 09:54:30,554 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch1_f10.3857.pt
+2026-04-27 09:54:47,214 | INFO | --- Epoch 2 Report ---
+2026-04-27 09:54:47,214 | INFO | Train Loss: 0.7865
+2026-04-27 09:54:47,214 | INFO | Val  -> Loss: 0.8896 | Acc: 0.6983 | Pre: 0.4378 | Rec: 0.4037 | F1: 0.3862
+2026-04-27 09:54:47,214 | INFO | Test -> Loss: 0.8368 | Acc: 0.7423 | Pre: 0.4152 | Rec: 0.3688 | F1: 0.3610
+2026-04-27 09:54:47,218 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch2_f10.3862.pt
+2026-04-27 09:55:03,844 | INFO | --- Epoch 3 Report ---
+2026-04-27 09:55:03,844 | INFO | Train Loss: 0.7164
+2026-04-27 09:55:03,844 | INFO | Val  -> Loss: 0.9059 | Acc: 0.6742 | Pre: 0.3987 | Rec: 0.3637 | F1: 0.3648
+2026-04-27 09:55:03,844 | INFO | Test -> Loss: 0.8997 | Acc: 0.6622 | Pre: 0.3556 | Rec: 0.3372 | F1: 0.3193
+2026-04-27 09:55:21,102 | INFO | --- Epoch 4 Report ---
+2026-04-27 09:55:21,103 | INFO | Train Loss: 0.6656
+2026-04-27 09:55:21,103 | INFO | Val  -> Loss: 0.9401 | Acc: 0.6972 | Pre: 0.4609 | Rec: 0.4469 | F1: 0.4169
+2026-04-27 09:55:21,103 | INFO | Test -> Loss: 0.9163 | Acc: 0.6998 | Pre: 0.4419 | Rec: 0.3876 | F1: 0.3855
+2026-04-27 09:55:21,106 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch4_f10.4169.pt
+2026-04-27 09:55:37,426 | INFO | --- Epoch 5 Report ---
+2026-04-27 09:55:37,427 | INFO | Train Loss: 0.6361
+2026-04-27 09:55:37,427 | INFO | Val  -> Loss: 0.9267 | Acc: 0.6969 | Pre: 0.4470 | Rec: 0.4449 | F1: 0.4156
+2026-04-27 09:55:37,427 | INFO | Test -> Loss: 0.9129 | Acc: 0.6968 | Pre: 0.4284 | Rec: 0.4047 | F1: 0.3911
+2026-04-27 09:55:53,809 | INFO | --- Epoch 6 Report ---
+2026-04-27 09:55:53,810 | INFO | Train Loss: 0.6108
+2026-04-27 09:55:53,810 | INFO | Val  -> Loss: 0.9688 | Acc: 0.6998 | Pre: 0.4325 | Rec: 0.4173 | F1: 0.4084
+2026-04-27 09:55:53,810 | INFO | Test -> Loss: 0.9462 | Acc: 0.7062 | Pre: 0.4653 | Rec: 0.3841 | F1: 0.3955
+2026-04-27 09:56:10,213 | INFO | --- Epoch 7 Report ---
+2026-04-27 09:56:10,213 | INFO | Train Loss: 0.5931
+2026-04-27 09:56:10,214 | INFO | Val  -> Loss: 0.9908 | Acc: 0.7140 | Pre: 0.4709 | Rec: 0.4423 | F1: 0.4266
+2026-04-27 09:56:10,214 | INFO | Test -> Loss: 0.9056 | Acc: 0.7214 | Pre: 0.4709 | Rec: 0.4073 | F1: 0.4225
+2026-04-27 09:56:10,217 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch7_f10.4266.pt
+2026-04-27 09:56:26,689 | INFO | --- Epoch 8 Report ---
+2026-04-27 09:56:26,689 | INFO | Train Loss: 0.5781
+2026-04-27 09:56:26,689 | INFO | Val  -> Loss: 0.9046 | Acc: 0.7181 | Pre: 0.4877 | Rec: 0.3974 | F1: 0.4235
+2026-04-27 09:56:26,689 | INFO | Test -> Loss: 0.9179 | Acc: 0.7019 | Pre: 0.4311 | Rec: 0.3653 | F1: 0.3653
+2026-04-27 09:56:43,123 | INFO | --- Epoch 9 Report ---
+2026-04-27 09:56:43,123 | INFO | Train Loss: 0.5675
+2026-04-27 09:56:43,123 | INFO | Val  -> Loss: 0.9209 | Acc: 0.7259 | Pre: 0.5314 | Rec: 0.4479 | F1: 0.4518
+2026-04-27 09:56:43,123 | INFO | Test -> Loss: 0.8329 | Acc: 0.7201 | Pre: 0.4859 | Rec: 0.4066 | F1: 0.4180
+2026-04-27 09:56:43,126 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch9_f10.4518.pt
+2026-04-27 09:57:00,304 | INFO | --- Epoch 10 Report ---
+2026-04-27 09:57:00,304 | INFO | Train Loss: 0.5565
+2026-04-27 09:57:00,304 | INFO | Val  -> Loss: 0.9572 | Acc: 0.7178 | Pre: 0.5335 | Rec: 0.4586 | F1: 0.4687
+2026-04-27 09:57:00,304 | INFO | Test -> Loss: 0.9306 | Acc: 0.7214 | Pre: 0.4863 | Rec: 0.4155 | F1: 0.4324
+2026-04-27 09:57:00,307 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch10_f10.4687.pt
+2026-04-27 09:57:17,054 | INFO | --- Epoch 11 Report ---
+2026-04-27 09:57:17,054 | INFO | Train Loss: 0.5492
+2026-04-27 09:57:17,054 | INFO | Val  -> Loss: 0.9544 | Acc: 0.7227 | Pre: 0.4918 | Rec: 0.4672 | F1: 0.4328
+2026-04-27 09:57:17,054 | INFO | Test -> Loss: 0.8013 | Acc: 0.7308 | Pre: 0.5211 | Rec: 0.4453 | F1: 0.4526
+2026-04-27 09:57:33,334 | INFO | --- Epoch 12 Report ---
+2026-04-27 09:57:33,334 | INFO | Train Loss: 0.5429
+2026-04-27 09:57:33,334 | INFO | Val  -> Loss: 0.9595 | Acc: 0.7179 | Pre: 0.4941 | Rec: 0.4764 | F1: 0.4572
+2026-04-27 09:57:33,334 | INFO | Test -> Loss: 0.8826 | Acc: 0.7200 | Pre: 0.4951 | Rec: 0.4421 | F1: 0.4557
+2026-04-27 09:57:50,204 | INFO | --- Epoch 13 Report ---
+2026-04-27 09:57:50,204 | INFO | Train Loss: 0.5359
+2026-04-27 09:57:50,204 | INFO | Val  -> Loss: 0.9356 | Acc: 0.7201 | Pre: 0.5223 | Rec: 0.4917 | F1: 0.4820
+2026-04-27 09:57:50,204 | INFO | Test -> Loss: 0.7603 | Acc: 0.7927 | Pre: 0.5705 | Rec: 0.4743 | F1: 0.5071
+2026-04-27 09:57:50,207 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch13_f10.4820.pt
+2026-04-27 09:58:07,931 | INFO | --- Epoch 14 Report ---
+2026-04-27 09:58:07,931 | INFO | Train Loss: 0.5297
+2026-04-27 09:58:07,932 | INFO | Val  -> Loss: 0.9267 | Acc: 0.7301 | Pre: 0.5442 | Rec: 0.4392 | F1: 0.4674
+2026-04-27 09:58:07,932 | INFO | Test -> Loss: 0.8193 | Acc: 0.7177 | Pre: 0.4717 | Rec: 0.3904 | F1: 0.4048
+2026-04-27 09:58:25,704 | INFO | --- Epoch 15 Report ---
+2026-04-27 09:58:25,704 | INFO | Train Loss: 0.5247
+2026-04-27 09:58:25,704 | INFO | Val  -> Loss: 0.9465 | Acc: 0.7270 | Pre: 0.5573 | Rec: 0.4902 | F1: 0.4960
+2026-04-27 09:58:25,704 | INFO | Test -> Loss: 0.7952 | Acc: 0.7864 | Pre: 0.5699 | Rec: 0.4542 | F1: 0.4919
+2026-04-27 09:58:25,708 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch15_f10.4960.pt
+2026-04-27 09:58:43,220 | INFO | --- Epoch 16 Report ---
+2026-04-27 09:58:43,220 | INFO | Train Loss: 0.5192
+2026-04-27 09:58:43,221 | INFO | Val  -> Loss: 0.9409 | Acc: 0.7221 | Pre: 0.5242 | Rec: 0.4288 | F1: 0.4511
+2026-04-27 09:58:43,221 | INFO | Test -> Loss: 0.7943 | Acc: 0.7279 | Pre: 0.5238 | Rec: 0.4556 | F1: 0.4688
+2026-04-27 09:58:59,562 | INFO | --- Epoch 17 Report ---
+2026-04-27 09:58:59,562 | INFO | Train Loss: 0.5157
+2026-04-27 09:58:59,562 | INFO | Val  -> Loss: 0.9399 | Acc: 0.7253 | Pre: 0.5184 | Rec: 0.4960 | F1: 0.4755
+2026-04-27 09:58:59,562 | INFO | Test -> Loss: 0.7786 | Acc: 0.8040 | Pre: 0.6245 | Rec: 0.4893 | F1: 0.5314
+2026-04-27 09:59:16,555 | INFO | --- Epoch 18 Report ---
+2026-04-27 09:59:16,555 | INFO | Train Loss: 0.5120
+2026-04-27 09:59:16,555 | INFO | Val  -> Loss: 0.9065 | Acc: 0.7270 | Pre: 0.5383 | Rec: 0.4291 | F1: 0.4576
+2026-04-27 09:59:16,555 | INFO | Test -> Loss: 0.7761 | Acc: 0.7969 | Pre: 0.5580 | Rec: 0.4280 | F1: 0.4601
+2026-04-27 09:59:34,115 | INFO | --- Epoch 19 Report ---
+2026-04-27 09:59:34,116 | INFO | Train Loss: 0.5068
+2026-04-27 09:59:34,116 | INFO | Val  -> Loss: 0.9196 | Acc: 0.7233 | Pre: 0.5384 | Rec: 0.4901 | F1: 0.4911
+2026-04-27 09:59:34,116 | INFO | Test -> Loss: 0.7862 | Acc: 0.7935 | Pre: 0.5572 | Rec: 0.4703 | F1: 0.5002
+2026-04-27 09:59:51,234 | INFO | --- Epoch 20 Report ---
+2026-04-27 09:59:51,234 | INFO | Train Loss: 0.5063
+2026-04-27 09:59:51,234 | INFO | Val  -> Loss: 0.9419 | Acc: 0.7259 | Pre: 0.5116 | Rec: 0.5014 | F1: 0.4824
+2026-04-27 09:59:51,234 | INFO | Test -> Loss: 0.8498 | Acc: 0.7336 | Pre: 0.5252 | Rec: 0.4730 | F1: 0.4785
+2026-04-27 10:00:08,014 | INFO | --- Epoch 21 Report ---
+2026-04-27 10:00:08,014 | INFO | Train Loss: 0.5006
+2026-04-27 10:00:08,014 | INFO | Val  -> Loss: 0.9402 | Acc: 0.7247 | Pre: 0.5144 | Rec: 0.5053 | F1: 0.4918
+2026-04-27 10:00:08,014 | INFO | Test -> Loss: 0.7975 | Acc: 0.7955 | Pre: 0.5841 | Rec: 0.4764 | F1: 0.5145
+2026-04-27 10:00:24,423 | INFO | --- Epoch 22 Report ---
+2026-04-27 10:00:24,423 | INFO | Train Loss: 0.4982
+2026-04-27 10:00:24,423 | INFO | Val  -> Loss: 0.9231 | Acc: 0.7253 | Pre: 0.5103 | Rec: 0.5009 | F1: 0.4825
+2026-04-27 10:00:24,423 | INFO | Test -> Loss: 0.8087 | Acc: 0.7996 | Pre: 0.6029 | Rec: 0.5068 | F1: 0.5401
+2026-04-27 10:00:40,763 | INFO | --- Epoch 23 Report ---
+2026-04-27 10:00:40,763 | INFO | Train Loss: 0.4961
+2026-04-27 10:00:40,763 | INFO | Val  -> Loss: 0.9414 | Acc: 0.7359 | Pre: 0.5799 | Rec: 0.4955 | F1: 0.5161
+2026-04-27 10:00:40,763 | INFO | Test -> Loss: 0.7710 | Acc: 0.7974 | Pre: 0.6166 | Rec: 0.4688 | F1: 0.5171
+2026-04-27 10:00:40,767 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch23_f10.5161.pt
+2026-04-27 10:00:57,153 | INFO | --- Epoch 24 Report ---
+2026-04-27 10:00:57,153 | INFO | Train Loss: 0.4921
+2026-04-27 10:00:57,153 | INFO | Val  -> Loss: 0.9798 | Acc: 0.7304 | Pre: 0.5409 | Rec: 0.4906 | F1: 0.4944
+2026-04-27 10:00:57,153 | INFO | Test -> Loss: 0.7479 | Acc: 0.8107 | Pre: 0.6827 | Rec: 0.4892 | F1: 0.5482
+2026-04-27 10:01:13,577 | INFO | --- Epoch 25 Report ---
+2026-04-27 10:01:13,577 | INFO | Train Loss: 0.4914
+2026-04-27 10:01:13,577 | INFO | Val  -> Loss: 0.9521 | Acc: 0.7313 | Pre: 0.5649 | Rec: 0.4945 | F1: 0.5027
+2026-04-27 10:01:13,577 | INFO | Test -> Loss: 0.7714 | Acc: 0.8009 | Pre: 0.6114 | Rec: 0.4646 | F1: 0.5119
+2026-04-27 10:01:30,081 | INFO | --- Epoch 26 Report ---
+2026-04-27 10:01:30,081 | INFO | Train Loss: 0.4888
+2026-04-27 10:01:30,082 | INFO | Val  -> Loss: 0.9203 | Acc: 0.7305 | Pre: 0.5370 | Rec: 0.5171 | F1: 0.5051
+2026-04-27 10:01:30,082 | INFO | Test -> Loss: 0.7807 | Acc: 0.7981 | Pre: 0.5589 | Rec: 0.4719 | F1: 0.5036
+2026-04-27 10:01:46,516 | INFO | --- Epoch 27 Report ---
+2026-04-27 10:01:46,516 | INFO | Train Loss: 0.4866
+2026-04-27 10:01:46,516 | INFO | Val  -> Loss: 0.9347 | Acc: 0.7324 | Pre: 0.5617 | Rec: 0.5061 | F1: 0.5120
+2026-04-27 10:01:46,516 | INFO | Test -> Loss: 0.7511 | Acc: 0.8008 | Pre: 0.6025 | Rec: 0.4837 | F1: 0.5261
+2026-04-27 10:02:03,911 | INFO | --- Epoch 28 Report ---
+2026-04-27 10:02:03,911 | INFO | Train Loss: 0.4852
+2026-04-27 10:02:03,911 | INFO | Val  -> Loss: 0.9070 | Acc: 0.7316 | Pre: 0.5588 | Rec: 0.5113 | F1: 0.5136
+2026-04-27 10:02:03,911 | INFO | Test -> Loss: 0.7749 | Acc: 0.8009 | Pre: 0.6008 | Rec: 0.4783 | F1: 0.5215
+2026-04-27 10:02:21,479 | INFO | --- Epoch 29 Report ---
+2026-04-27 10:02:21,479 | INFO | Train Loss: 0.4830
+2026-04-27 10:02:21,479 | INFO | Val  -> Loss: 0.9571 | Acc: 0.7340 | Pre: 0.5547 | Rec: 0.5120 | F1: 0.5109
+2026-04-27 10:02:21,479 | INFO | Test -> Loss: 0.7906 | Acc: 0.7414 | Pre: 0.5099 | Rec: 0.4554 | F1: 0.4693
+2026-04-27 10:02:37,911 | INFO | --- Epoch 30 Report ---
+2026-04-27 10:02:37,911 | INFO | Train Loss: 0.4803
+2026-04-27 10:02:37,911 | INFO | Val  -> Loss: 0.9998 | Acc: 0.7222 | Pre: 0.5303 | Rec: 0.4810 | F1: 0.4787
+2026-04-27 10:02:37,911 | INFO | Test -> Loss: 0.7839 | Acc: 0.8073 | Pre: 0.6148 | Rec: 0.4883 | F1: 0.5286
+2026-04-27 10:02:54,329 | INFO | --- Epoch 31 Report ---
+2026-04-27 10:02:54,329 | INFO | Train Loss: 0.4776
+2026-04-27 10:02:54,329 | INFO | Val  -> Loss: 0.9421 | Acc: 0.7281 | Pre: 0.5288 | Rec: 0.5064 | F1: 0.4900
+2026-04-27 10:02:54,329 | INFO | Test -> Loss: 0.7774 | Acc: 0.8084 | Pre: 0.5984 | Rec: 0.4991 | F1: 0.5288
+2026-04-27 10:03:10,770 | INFO | --- Epoch 32 Report ---
+2026-04-27 10:03:10,771 | INFO | Train Loss: 0.4778
+2026-04-27 10:03:10,771 | INFO | Val  -> Loss: 0.9646 | Acc: 0.7333 | Pre: 0.5323 | Rec: 0.5048 | F1: 0.4927
+2026-04-27 10:03:10,771 | INFO | Test -> Loss: 0.7678 | Acc: 0.8123 | Pre: 0.6430 | Rec: 0.4898 | F1: 0.5392
+2026-04-27 10:03:28,085 | INFO | --- Epoch 33 Report ---
+2026-04-27 10:03:28,085 | INFO | Train Loss: 0.4761
+2026-04-27 10:03:28,085 | INFO | Val  -> Loss: 0.9634 | Acc: 0.7433 | Pre: 0.5988 | Rec: 0.5106 | F1: 0.5278
+2026-04-27 10:03:28,085 | INFO | Test -> Loss: 0.7536 | Acc: 0.8079 | Pre: 0.6353 | Rec: 0.4665 | F1: 0.5180
+2026-04-27 10:03:28,089 | INFO | 🏆 Saved best model → module3/db_data/checkpoints_rac/DAPT/TOP_K_2/rac_best_epoch33_f10.5278.pt
+2026-04-27 10:03:44,622 | INFO | --- Epoch 34 Report ---
+2026-04-27 10:03:44,622 | INFO | Train Loss: 0.4755
+2026-04-27 10:03:44,622 | INFO | Val  -> Loss: 0.9529 | Acc: 0.7290 | Pre: 0.5339 | Rec: 0.5063 | F1: 0.4951
+2026-04-27 10:03:44,622 | INFO | Test -> Loss: 0.7542 | Acc: 0.8145 | Pre: 0.6494 | Rec: 0.5093 | F1: 0.5564
+2026-04-27 10:04:00,984 | INFO | --- Epoch 35 Report ---
+2026-04-27 10:04:00,984 | INFO | Train Loss: 0.4734
+2026-04-27 10:04:00,984 | INFO | Val  -> Loss: 0.9727 | Acc: 0.7342 | Pre: 0.5632 | Rec: 0.4987 | F1: 0.5059
+2026-04-27 10:04:00,984 | INFO | Test -> Loss: 0.7570 | Acc: 0.8077 | Pre: 0.5959 | Rec: 0.4710 | F1: 0.5124
+2026-04-27 10:04:17,442 | INFO | --- Epoch 36 Report ---
+2026-04-27 10:04:17,442 | INFO | Train Loss: 0.4718
+2026-04-27 10:04:17,442 | INFO | Val  -> Loss: 0.9585 | Acc: 0.7359 | Pre: 0.5640 | Rec: 0.5058 | F1: 0.5106
+2026-04-27 10:04:17,442 | INFO | Test -> Loss: 0.7609 | Acc: 0.8059 | Pre: 0.6146 | Rec: 0.4759 | F1: 0.5209
+2026-04-27 10:04:34,353 | INFO | --- Epoch 37 Report ---
+2026-04-27 10:04:34,353 | INFO | Train Loss: 0.4710
+2026-04-27 10:04:34,353 | INFO | Val  -> Loss: 0.9637 | Acc: 0.7402 | Pre: 0.5902 | Rec: 0.5066 | F1: 0.5224
+2026-04-27 10:04:34,353 | INFO | Test -> Loss: 0.7577 | Acc: 0.8073 | Pre: 0.6021 | Rec: 0.4710 | F1: 0.5148
+2026-04-27 10:04:50,839 | INFO | --- Epoch 38 Report ---
+2026-04-27 10:04:50,839 | INFO | Train Loss: 0.4700
+2026-04-27 10:04:50,839 | INFO | Val  -> Loss: 0.9652 | Acc: 0.7353 | Pre: 0.5537 | Rec: 0.5136 | F1: 0.5041
+2026-04-27 10:04:50,839 | INFO | Test -> Loss: 0.7738 | Acc: 0.8067 | Pre: 0.5940 | Rec: 0.4753 | F1: 0.5163
+2026-04-27 10:05:07,731 | INFO | --- Epoch 39 Report ---
+2026-04-27 10:05:07,731 | INFO | Train Loss: 0.4685
+2026-04-27 10:05:07,731 | INFO | Val  -> Loss: 0.9584 | Acc: 0.7348 | Pre: 0.5685 | Rec: 0.5093 | F1: 0.5137
+2026-04-27 10:05:07,731 | INFO | Test -> Loss: 0.7766 | Acc: 0.8047 | Pre: 0.5583 | Rec: 0.4725 | F1: 0.5030
+2026-04-27 10:05:24,910 | INFO | --- Epoch 40 Report ---
+2026-04-27 10:05:24,910 | INFO | Train Loss: 0.4680
+2026-04-27 10:05:24,910 | INFO | Val  -> Loss: 0.9635 | Acc: 0.7339 | Pre: 0.5633 | Rec: 0.5050 | F1: 0.5074
+2026-04-27 10:05:24,910 | INFO | Test -> Loss: 0.7610 | Acc: 0.8079 | Pre: 0.6206 | Rec: 0.4774 | F1: 0.5236
+2026-04-27 10:05:42,530 | INFO | --- Epoch 41 Report ---
+2026-04-27 10:05:42,530 | INFO | Train Loss: 0.4672
+2026-04-27 10:05:42,530 | INFO | Val  -> Loss: 0.9648 | Acc: 0.7365 | Pre: 0.5762 | Rec: 0.4978 | F1: 0.5128
+2026-04-27 10:05:42,530 | INFO | Test -> Loss: 0.7783 | Acc: 0.8093 | Pre: 0.5812 | Rec: 0.4748 | F1: 0.5119
+2026-04-27 10:06:00,155 | INFO | --- Epoch 42 Report ---
+2026-04-27 10:06:00,155 | INFO | Train Loss: 0.4661
+2026-04-27 10:06:00,155 | INFO | Val  -> Loss: 0.9773 | Acc: 0.7399 | Pre: 0.5650 | Rec: 0.5118 | F1: 0.5122
+2026-04-27 10:06:00,155 | INFO | Test -> Loss: 0.7797 | Acc: 0.8083 | Pre: 0.5739 | Rec: 0.4777 | F1: 0.5122
+2026-04-27 10:06:17,845 | INFO | --- Epoch 43 Report ---
+2026-04-27 10:06:17,845 | INFO | Train Loss: 0.4658
+2026-04-27 10:06:17,845 | INFO | Val  -> Loss: 0.9692 | Acc: 0.7350 | Pre: 0.5508 | Rec: 0.5143 | F1: 0.5037
+2026-04-27 10:06:17,845 | INFO | Test -> Loss: 0.7816 | Acc: 0.8057 | Pre: 0.5622 | Rec: 0.4728 | F1: 0.5045
+2026-04-27 10:06:34,301 | INFO | --- Epoch 44 Report ---
+2026-04-27 10:06:34,301 | INFO | Train Loss: 0.4647
+2026-04-27 10:06:34,301 | INFO | Val  -> Loss: 0.9706 | Acc: 0.7379 | Pre: 0.5553 | Rec: 0.5087 | F1: 0.5071
+2026-04-27 10:06:34,301 | INFO | Test -> Loss: 0.7643 | Acc: 0.8074 | Pre: 0.5965 | Rec: 0.4738 | F1: 0.5158
+2026-04-27 10:06:50,705 | INFO | --- Epoch 45 Report ---
+2026-04-27 10:06:50,705 | INFO | Train Loss: 0.4632
+2026-04-27 10:06:50,705 | INFO | Val  -> Loss: 0.9678 | Acc: 0.7327 | Pre: 0.5557 | Rec: 0.4988 | F1: 0.5054
+2026-04-27 10:06:50,705 | INFO | Test -> Loss: 0.7778 | Acc: 0.8064 | Pre: 0.5648 | Rec: 0.4752 | F1: 0.5077
+2026-04-27 10:07:08,277 | INFO | --- Epoch 46 Report ---
+2026-04-27 10:07:08,277 | INFO | Train Loss: 0.4642
+2026-04-27 10:07:08,277 | INFO | Val  -> Loss: 0.9712 | Acc: 0.7339 | Pre: 0.5607 | Rec: 0.5000 | F1: 0.5080
+2026-04-27 10:07:08,277 | INFO | Test -> Loss: 0.7770 | Acc: 0.8067 | Pre: 0.5653 | Rec: 0.4744 | F1: 0.5071
+2026-04-27 10:07:25,033 | INFO | --- Epoch 47 Report ---
+2026-04-27 10:07:25,033 | INFO | Train Loss: 0.4643
+2026-04-27 10:07:25,033 | INFO | Val  -> Loss: 0.9641 | Acc: 0.7288 | Pre: 0.5399 | Rec: 0.4977 | F1: 0.4953
+2026-04-27 10:07:25,033 | INFO | Test -> Loss: 0.7761 | Acc: 0.8066 | Pre: 0.5632 | Rec: 0.4730 | F1: 0.5052
+2026-04-27 10:07:41,474 | INFO | --- Epoch 48 Report ---
+2026-04-27 10:07:41,474 | INFO | Train Loss: 0.4645
+2026-04-27 10:07:41,474 | INFO | Val  -> Loss: 0.9659 | Acc: 0.7294 | Pre: 0.5421 | Rec: 0.4976 | F1: 0.4959
+2026-04-27 10:07:41,474 | INFO | Test -> Loss: 0.7748 | Acc: 0.8069 | Pre: 0.5919 | Rec: 0.4730 | F1: 0.5140
+2026-04-27 10:07:57,901 | INFO | --- Epoch 49 Report ---
+2026-04-27 10:07:57,901 | INFO | Train Loss: 0.4635
+2026-04-27 10:07:57,901 | INFO | Val  -> Loss: 0.9662 | Acc: 0.7293 | Pre: 0.5418 | Rec: 0.4976 | F1: 0.4958
+2026-04-27 10:07:57,901 | INFO | Test -> Loss: 0.7740 | Acc: 0.8084 | Pre: 0.5980 | Rec: 0.4757 | F1: 0.5178
+2026-04-27 10:08:14,387 | INFO | --- Epoch 50 Report ---
+2026-04-27 10:08:14,387 | INFO | Train Loss: 0.4630
+2026-04-27 10:08:14,387 | INFO | Val  -> Loss: 0.9667 | Acc: 0.7293 | Pre: 0.5418 | Rec: 0.4976 | F1: 0.4958
+2026-04-27 10:08:14,387 | INFO | Test -> Loss: 0.7738 | Acc: 0.8083 | Pre: 0.5978 | Rec: 0.4755 | F1: 0.5175
+2026-04-27 10:08:15,431 | INFO | Total training time: 0.83 hours

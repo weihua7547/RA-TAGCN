@@ -1,0 +1,30 @@
+2026-04-20 18:04:46,978 | INFO | 🚀 TAGCN Reconstruction Pretraining
+2026-04-20 18:04:46,979 | INFO | Device: cuda
+2026-04-20 18:04:46,979 | INFO | Train jsonl: module1/data_preprocessing/output/finetune/train.jsonl
+2026-04-20 18:04:46,979 | INFO | Val jsonl: module1/data_preprocessing/output/finetune/val.jsonl
+2026-04-20 18:04:46,980 | INFO | Detected node feature dim = 23
+2026-04-20 18:04:51,052 | INFO | Train samples: 78222
+2026-04-20 18:04:51,052 | INFO | Val samples: 6520
+2026-04-20 18:04:59,104 | INFO | [Epoch 001] Train Loss: 1.039663 | Val Loss: 0.702559
+2026-04-20 18:04:59,109 | INFO | ✅ Saved best model (val_loss=0.702559)
+2026-04-20 18:05:06,782 | INFO | [Epoch 002] Train Loss: 0.913379 | Val Loss: 0.646844
+2026-04-20 18:05:06,786 | INFO | ✅ Saved best model (val_loss=0.646844)
+2026-04-20 18:05:14,461 | INFO | [Epoch 003] Train Loss: 0.826638 | Val Loss: 0.582031
+2026-04-20 18:05:14,465 | INFO | ✅ Saved best model (val_loss=0.582031)
+2026-04-20 18:05:22,227 | INFO | [Epoch 004] Train Loss: 0.739520 | Val Loss: 0.532340
+2026-04-20 18:05:22,232 | INFO | ✅ Saved best model (val_loss=0.532340)
+2026-04-20 18:05:29,970 | INFO | [Epoch 005] Train Loss: 0.687252 | Val Loss: 0.487269
+2026-04-20 18:05:29,973 | INFO | ✅ Saved best model (val_loss=0.487269)
+2026-04-20 18:05:37,570 | INFO | [Epoch 006] Train Loss: 0.632750 | Val Loss: 0.454135
+2026-04-20 18:05:37,574 | INFO | ✅ Saved best model (val_loss=0.454135)
+2026-04-20 18:05:45,244 | INFO | [Epoch 007] Train Loss: 0.590223 | Val Loss: 0.423894
+2026-04-20 18:05:45,249 | INFO | ✅ Saved best model (val_loss=0.423894)
+2026-04-20 18:05:52,986 | INFO | [Epoch 008] Train Loss: 0.546708 | Val Loss: 0.397995
+2026-04-20 18:05:52,988 | INFO | ✅ Saved best model (val_loss=0.397995)
+2026-04-20 18:06:00,772 | INFO | [Epoch 009] Train Loss: 0.525851 | Val Loss: 0.372455
+2026-04-20 18:06:00,775 | INFO | ✅ Saved best model (val_loss=0.372455)
+2026-04-20 18:06:08,530 | INFO | [Epoch 010] Train Loss: 0.484171 | Val Loss: 0.351490
+2026-04-20 18:06:08,532 | INFO | ✅ Saved best model (val_loss=0.351490)
+2026-04-20 18:06:08,532 | INFO | 🏁 Training finished
+2026-04-20 18:06:08,532 | INFO | ⏱ Total time: 0.02 hours
+2026-04-20 18:06:08,532 | INFO | 📄 Log saved at: module2/TAGCN/checkpoints_pretrain/TAPT/train_20260420_180446.log

@@ -1,0 +1,13 @@
+2026-04-20 18:02:01,057 | INFO | 🚀 TAGCN Reconstruction Pretraining
+2026-04-20 18:02:01,057 | INFO | Device: cuda
+2026-04-20 18:02:01,058 | INFO | Train jsonl: module1/data_preprocessing/output/finetune/train.jsonl
+2026-04-20 18:02:01,058 | INFO | Val jsonl: module1/data_preprocessing/output/finetune/val.jsonl
+2026-04-20 18:02:01,059 | INFO | Detected node feature dim = 23
+2026-04-20 18:02:05,121 | INFO | Train samples: 78222
+2026-04-20 18:02:05,121 | INFO | Val samples: 6520
+2026-04-20 18:02:13,168 | INFO | [Epoch 001] Train Loss: 1.052400 | Val Loss: 0.863117
+2026-04-20 18:02:13,175 | INFO | ✅ Saved best model (val_loss=0.863117)
+2026-04-20 18:02:20,924 | INFO | [Epoch 002] Train Loss: 0.922570 | Val Loss: 0.765106
+2026-04-20 18:02:20,926 | INFO | ✅ Saved best model (val_loss=0.765106)
+2026-04-20 18:02:28,724 | INFO | [Epoch 003] Train Loss: 0.830873 | Val Loss: 0.679342
+2026-04-20 18:02:28,727 | INFO | ✅ Saved best model (val_loss=0.679342)
