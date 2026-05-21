@@ -8,7 +8,7 @@ RA-TAGCN是一個整合檢索強化(Retrieval Augmentation)與拓樸自適應圖
 ![RA-TAGCN框架](/picture/RAC-TAGCN框架.png)
 ![融合分類層架構](/picture/RAC-TAGCN融合分類層.png)
 # 圖轉換
-HTML的文件物件模型(Document Object Model, DOM)可以視作一顆樹，樹及為圖的一種表示方式，所以可以被GNN處理。
+HTML的文件物件模型(Document Object Model, DOM)可以視作一顆樹，樹即為圖的一種表示方式，所以可以被GNN處理。
 其中標籤視作節點且父子關係則為有方向的邊。
 ![DOM Tree示意圖](/picture/網頁圖結構示意圖.png)
 接下來，只有圖的形狀是不太能夠被GNN直接處理的，還得需嵌入節點的特徵。
